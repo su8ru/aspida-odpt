@@ -6,7 +6,7 @@ export interface Methods {
       "acl:consumerKey": string;
       "@id"?: string;
       "owl:sameAs"?: string;
-    }
+    };
     resBody: Calender;
-  }
+  };
 }
