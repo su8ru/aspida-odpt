@@ -1,4 +1,4 @@
-export interface base {
+export interface OdptBase {
   "@context": string;
   "@id": string;
   "@type": string;

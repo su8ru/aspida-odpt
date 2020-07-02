@@ -1,6 +1,6 @@
-import { base } from "../@types";
+import { OdptBase } from "../@types";
 
-export interface Operator extends base {
+export interface Operator extends OdptBase {
   "dc:title?": string;
   "odpt:operatorTitle?": OperatorTitle;
 }

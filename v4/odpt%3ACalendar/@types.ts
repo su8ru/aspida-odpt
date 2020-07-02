@@ -1,6 +1,6 @@
-import { base } from "../@types";
+import { OdptBase } from "../@types";
 
-export interface Calender extends base {
+export interface Calender extends OdptBase {
   "dc:title?": string;
   "odpt:calenderTitle?": CalenderTitle;
   "odpt:day?": string[];
