@@ -10,6 +10,3 @@ export interface OdptBase {
   // 固有識別子。
   "owl:SameAs": string;
 }
-
-let hoge: OdptBase;
-let as = hoge["@context"]
