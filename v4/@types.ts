@@ -10,3 +10,8 @@ export interface OdptBase {
   // 固有識別子。
   "owl:SameAs": string;
 }
+
+export interface MultiLang {
+  ja: string;
+  en: string;
+}

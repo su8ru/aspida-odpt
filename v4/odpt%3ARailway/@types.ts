@@ -1,4 +1,5 @@
 import { OdptBase } from "../@types";
+import { StationTitle } from "../odpt%3AStation/@types";
 
 export interface Railway extends OdptBase {
   // 路線名（日本語）
@@ -33,10 +34,6 @@ export interface StationOrder {
 }
 
 export interface RailwayTitle {
-  ja: string;
-  en: string;
-}
-export interface StationTitle {
   ja: string;
   en: string;
 }
