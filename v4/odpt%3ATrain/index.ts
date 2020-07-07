@@ -10,6 +10,6 @@ export interface Methods {
       // 当該列車が運行している路線のID (odpt:Railwayのowl:sameAs)
       "odpt:railway"?: string;
     };
-    resBody: Train;
+    resBody: Train[];
   };
 }

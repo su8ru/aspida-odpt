@@ -13,6 +13,6 @@ export interface Methods {
       // 路線を表すID (odpt:Railwayのowl:sameAs)
       "odpt:railway"?: string;
     };
-    resBody: PassengerSurvey;
+    resBody: PassengerSurvey[];
   };
 }

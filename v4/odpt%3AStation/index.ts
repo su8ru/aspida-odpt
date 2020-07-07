@@ -15,6 +15,6 @@ export interface Methods {
       // 駅ナンバリング（e.g. OH01=小田急新宿駅）
       "odpt:stationCode"?: string;
     };
-    resBody: Station;
+    resBody: Station[];
   };
 }

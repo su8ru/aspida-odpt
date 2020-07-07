@@ -19,6 +19,6 @@ export interface Methods {
       // 特定日付の時刻表を取得
       "dc:date"?: string;
     };
-    resBody: StationTimetable;
+    resBody: StationTimetable[];
   };
 }

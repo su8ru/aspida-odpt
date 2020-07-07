@@ -19,6 +19,6 @@ export interface Methods {
       // 特定のカレンダー情報ID (odpt:Calendarのowl:sameAs)
       "odpt:calendar"?: string;
     };
-    resBody: TrainTimetable;
+    resBody: TrainTimetable[];
   };
 }

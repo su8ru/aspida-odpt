@@ -9,6 +9,6 @@ export interface Methods {
       // 事業者を表すID (odpt:Operatorのowl:sameAs)
       "odpt:operator"?: string;
     };
-    resBody: Operator;
+    resBody: Operator[];
   };
 }

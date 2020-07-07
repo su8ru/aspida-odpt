@@ -13,6 +13,6 @@ export interface Methods {
       // 到着駅のID (odpt:Stationのowl:sameAs)
       "odpt:toStation"?: string;
     };
-    resBody: RailwayFare;
+    resBody: RailwayFare[];
   };
 }

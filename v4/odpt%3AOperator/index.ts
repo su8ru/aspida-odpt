@@ -7,6 +7,6 @@ export interface Methods {
       "@id"?: string;
       "owl:sameAs"?: string;
     };
-    resBody: Operator;
+    resBody: Operator[];
   };
 }

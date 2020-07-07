@@ -13,6 +13,6 @@ export interface Methods {
       // 路線コード、路線シンボル表記（e.g. 小田原線 => OH、丸ノ内線 => M）
       "odpt:lineCode"?: string;
     };
-    resBody: Railway;
+    resBody: Railway[];
   };
 }
