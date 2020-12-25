@@ -1,0 +1,48 @@
+{
+  "name": "aspida-odpt",
+  "version": "4.8.0",
+  "description": "API definition of odpt (Public Transportation Open Data Center) for aspida",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/su8ru/aspida-odpt.git"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "scripts": {
+    "lint": "eslint src/*",
+    "lint:fix": "eslint src/* --fix",
+    "build": "aspida && tsc --build tsconfig.json",
+    "build:api": "aspida"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "aspida": "^1.1.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "aspida": "^1.1.1",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-aspida": "^0.0.2",
+    "eslint-plugin-prettier": "^3.3.0",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}

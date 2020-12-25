@@ -15,7 +15,7 @@ export interface Methods {
       // 列車種別ID (odpt:TrainTypeのowl:sameAs)
       "odpt:trainType"?: string;
       // 該当する列車ID (odpt:Trainのowl:sameAs)
-      "odpt:train"?: string
+      "odpt:train"?: string;
       // 特定のカレンダー情報ID (odpt:Calendarのowl:sameAs)
       "odpt:calendar"?: string;
     };

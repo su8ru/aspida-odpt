@@ -16,7 +16,7 @@ export interface Station extends OdptBase {
   // 代表点の緯度 (10進表記、測地系はWGS84)
   "geo:lat"?: string;
   // GeoJSON形式による地物情報
-  "ug:region"?: object;
+  "ug:region"?: unknown;
   // 駅出入口を表すIDのリスト。IDにはug:Poiの@idの値を利用する。
   "odpt:exit"?: string[];
   // 乗り換え可能路線のID (odpt:Railwayのowl:sameAs) のリスト

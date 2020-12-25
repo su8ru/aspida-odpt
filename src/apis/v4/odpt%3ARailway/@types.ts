@@ -15,7 +15,7 @@ export interface Railway extends OdptBase {
   // 路線のラインカラーをHEX表記#RRGGBB、DIC表記DICnnn、PANTONE表記PANTONExxxxで表記する
   "odpt:color"?: string;
   // GeoJSON形式による地物情報
-  "ug:region"?: object;
+  "ug:region"?: unknown;
   // 昇順の進行方向を表すID。odpt:stationOrderのodpt:indexの昇順方向を、odpt:RailDirectionのowl:sameAsで表したIDで格納する。
   "odpt:ascendingRailDirection"?: string;
   // 降順の進行方向を表すID。odpt:stationOrderのodpt:indexの降順方向を、odpt:RailDirectionのowl:sameAsで表したIDで格納する。
